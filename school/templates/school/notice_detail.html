@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h3>NOTICE DETAILS</h3>
+    
+   
+    <h4>{{ notice.subject }}</h4>
+    <p>{{notice.msg}}</p>
+    <p>{{notice.cr_date}}</p>
+        
+    <a href="/school/notice/">BACK</a>
+        
+{% endblock content %}
+    
